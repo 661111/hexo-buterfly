@@ -4,7 +4,7 @@ name: Pages
 on:
   push:
     branches:
-      - master  # default branch
+      - main  # default branch
 jobs:
   # 子任务
   pages:
@@ -20,7 +20,7 @@ jobs:
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
-          node-version: '16.14.1' # 自己正在使用的node版本即可
+          node-version: '20.0.1' # 自己正在使用的node版本即可
       # - run: node -v # 查看node版本号
       # 缓存依赖项: https://docs.github.com/cn/actions/using-workflows/caching-dependencies-to-speed-up-workflows
       - name: Cache NPM dependencies
@@ -47,18 +47,18 @@ jobs:
       #   run: git rm -f --cached themes/tenacity
         # run: git submodule deinit themes/tenacity && git rm themes/tenacity
       # 安装主题
-      - name: Install Theme
-        run: git submodule add https://github.com/all-smile/tenacity.git themes/tenacity
       - name: Clean
         run: npm run clean
       - name: Build
         run: npm run build
+      - name: gulp
+        run: npx gulp
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY  }}
-          user_name: xiao
-          user_email: allblue95@126.com
+          user_name: 661111
+          user_email: 3227988255@qq.com
           # 获取提交文章源码时的commit message，作为发布gh-pages分支的信息
           commit_message: ${{ github.event.head_commit.message }}
           full_commit_message: ${{ github.event.head_commit.message }}
