@@ -1,0 +1,101 @@
+.layout #recent-posts #category-bar #home-catalog-item {
+    border-radius: .5rem
+}
+
+.layout #recent-posts #category-bar .catalog-shouye-item {
+    margin-right: 3px
+}
+
+.layout #recent-posts .home-catalog-bar {
+    background: var(--mj-card-bg);
+    border: var(--style-border);
+    margin-top: 12px;
+    border-radius: 11px!important;
+    transition: .3s;
+    font-size: 15px;
+    padding: 5px .8rem;
+    animation: slide-in .5s .2s backwards;
+    will-change: transform;
+    -webkit-animation: slide-in .5s .2s backwards
+}
+#category-bar {
+    padding: .4rem .8rem;
+    border-radius: .5rem;
+    display: flex;
+    border: 1px solid rgba(150,150,150,.2);
+    justify-content: space-between
+}
+#category-bar i {
+    line-height: inherit
+}
+
+#catalog-list {
+    margin: 0 .5rem;
+    display: flex;
+    white-space: nowrap;
+    max-width: 100px;
+}
+#category-bar {
+    padding: .4rem .8rem;
+    border-radius: .5rem;
+    display: flex;
+    border: 1px solid rgba(150, 150, 150, .2);
+    justify-content: space-between;
+}
+
+#catalog-list::-webkit-scrollbar {
+    display: none
+}
+
+.catalog-list-item a {
+    margin: 0 .2em;
+    padding: .2em .4em .3em;
+    font-weight: 700;
+    border-radius: .5rem;
+    color: var(--font-color);
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out
+}
+
+.catalog-list-item:hover a {
+    background: #1dbffff1;
+    color: #fff
+}
+
+.catalog-list-item.selected a {
+    background: #00c4b6f1;
+    color: #fff
+}
+
+a.catalog-more {
+    min-width: fit-content;
+    font-weight: 700;
+    color: var(--font-color)
+}
+
+a.catalog-more:hover {
+    color: #1dbffff1
+}
+.layout #recent-posts #category-bar #home-catalog-item {
+    border-radius: .5rem
+}
+
+.layout #recent-posts #category-bar .catalog-shouye-item {
+    margin-right: 3px
+}
+
+.layout #recent-posts .home-catalog-bar {
+    background: var(--mj-card-bg);
+    border: var(--style-border);
+    margin-top: 12px;
+    border-radius: 11px!important;
+    transition: .3s;
+    font-size: 15px;
+    padding: 5px .8rem;
+    animation: slide-in .5s .2s backwards;
+    will-change: transform;
+    -webkit-animation: slide-in .5s .2s backwards
+}
