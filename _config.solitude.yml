@@ -60,6 +60,7 @@ nav:
       恋爱小屋: / || iconfont icon-love-sign
       关于我的: /about/ || iconfont icon-paperplane
       网址收藏: /star/ || iconfont icon-xinfen
+
   right: # right button
     random: true # Random article
     custom:
@@ -96,9 +97,9 @@ hometop:
          img: https://i.postimg.cc/nhgjwjCS/git.png
          color: "#df5b40"
   group:
-    Fire: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
-    Course: /tags/Course/ || fas fa-book || linear-gradient(to right,#358bff,#15c6ff)
-    Curation: /tags/Curation/ || fas fa-star || linear-gradient(to right,#18e7ae,#1eebeb)
+    热门: /archives/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    归档: /archives/ || fas fa-book || linear-gradient(to right,#358bff,#15c6ff)
+    说说: /essay/ || fas fa-star || linear-gradient(to right,#18e7ae,#1eebeb)
   recommendList:
     sup: Top
     title: Solitude Documentation
