@@ -23,10 +23,10 @@ site:
 nav:
   group:
     博客路线: # name
-      Vercel: https://vercel.blog.anxkj.top || /img/pwa/favicon.ico # name: url || icon
-      Github: https://github.blog.anxkj.top || /img/pwa/favicon.ico # name: url || icon
+      Vercel: https://vercel.blog.anxkj.top || /img/pwa/favicon.png # name: url || icon
+      Github: https://github.blog.anxkj.top || /img/pwa/favicon.png # name: url || icon
     其他网站:
-      浩潮汇: https://www.anxkj.top || /img/pwa/favicon.ico # name: url || icon
+      浩潮汇: https://www.anxkj.top || /img/pwa/favicon.png # name: url || icon
 
   menu:
     # Home: / # name: link
