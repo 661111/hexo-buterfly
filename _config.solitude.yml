@@ -341,8 +341,8 @@ footer:
   privacy: # /privacy/ # Privacy policy
   license: # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh # License
   links:
-    # - name: Theme
-    #   url: https://github.com/everfu/hexo-theme-solitude
+    - name: Theme
+      url: https://github.com/everfu/hexo-theme-solitude
     # - name: RSS
     #   url: /atom.xml
 # --------------------------- end ---------------------------
