@@ -48,9 +48,9 @@ jobs:
         # run: git submodule deinit themes/tenacity && git rm themes/tenacity
       # 安装主题
       - name: Clean
-        run: npm run clean
+        run: npx hexo clean
       - name: Build
-        run: npm run build
+        run: npx hexo g
       - name: gulp
         run: npx gulp
       - name: Deploy
