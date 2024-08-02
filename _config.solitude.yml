@@ -39,45 +39,62 @@ nav:
     #   Toobox: /tlink/ || fas fa-toolbox
     #   Music: /music/ || fas fa-music
     # About: /about/
+    文库 || iconfont icon--article:
+      归档: /archives/ || iconfont icon-guidang1
+      标签: /tags/ || iconfont icon-sekuaibiaoqian
+      分类: /categories/ || iconfont icon-fenlei
+    分享 || iconfont icon-xiangzi:
+      八音盒: https://music.anxkj.top ||iconfont icon-yinle
+      影院中心: /movie/ || iconfont icon-dianying1
+      网址导航: /star/ || iconfont icon-zhifengche
+    社交 || iconfont icon-shejiaoxinxi:
+      朋友圈: /fcircle/ || iconfont icon-pengyouquan
+      留言板: /comments/ || iconfont icon-liuyan
+      友人帐: /link/ || iconfont icon-lianjie
+      即刻短文: /essay/ || iconfont icon-qunliaotian
+    我的 || iconfont icon-maoliang:
+      恋爱小屋: / || iconfont icon-love-sign
+      关于我的: /about/ || iconfont icon-paperplane
+      网址收藏: /star/ || iconfont icon-xinfen
   right: # right button
-    random: false # Random article
+    random: true # Random article
     custom:
-    #  - name: Start # name
-    #    url: https://www.travellings.cn/go.html # Jump link
-    #    icon: fas fa-train # Icon
-    #    onclick: # Click event
-    #    id: travellings_button # id
+      - name: Start # name
+        url: https://www.travellings.cn/go.html # Jump link
+        icon: fas fa-train # Icon
+        onclick: # Click event
+        id: travellings_button # id
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 hometop:
-  enable: false
+  enable: true
   banner:
     title: Tranquility <br>and love life
     url: Hexo Theme Solitude
     icon:
-      # HTML: # name
-      #   img: https://i.postimg.cc/vBWVnY8q/html.png # url
-      #   color: "#e9572b" # color
-      # JS:
-      #   img: https://i.postimg.cc/3N10Ltv2/js.png
-      #   color: "#f7cb4f"
-      # Docker:
-      #   img: https://i.postimg.cc/8Pk6Fg24/docker.png
-      #   color: "#57b6e6"
-      # Flutter:
-      #   img: https://i.postimg.cc/hPC7T3gB/flutter.png
-      #   color: "#ffffff"
-      # WebPack:
-      #   img: https://i.postimg.cc/dVLZBmtT/webpack.png
-      #   color: "#2e3a41"
-      # Git:
-      #   img: https://i.postimg.cc/nhgjwjCS/git.png
-      #   color: "#df5b40"
+       HTML: # name
+         img: https://i.postimg.cc/vBWVnY8q/html.png # url
+         color: "#e9572b" # color
+       JS:
+         img: https://i.postimg.cc/3N10Ltv2/js.png
+         color: "#f7cb4f"
+       Docker:
+         img: https://i.postimg.cc/8Pk6Fg24/docker.png
+         color: "#57b6e6"
+       Flutter:
+         img: https://i.postimg.cc/hPC7T3gB/flutter.png
+         color: "#ffffff"
+       WebPack:
+         img: https://i.postimg.cc/dVLZBmtT/webpack.png
+         color: "#2e3a41"
+       Git:
+         img: https://i.postimg.cc/nhgjwjCS/git.png
+         color: "#df5b40"
   group:
-    # Fire: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
-    # Course: /tags/Course/ || fas fa-book || linear-gradient(to right,#358bff,#15c6ff)
-    # Curation: /tags/Curation/ || fas fa-star || linear-gradient(to right,#18e7ae,#1eebeb)
+    Fire: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    Course: /tags/Course/ || fas fa-book || linear-gradient(to right,#358bff,#15c6ff)
+    Curation: /tags/Curation/ || fas fa-star || linear-gradient(to right,#18e7ae,#1eebeb)
   recommendList:
     sup: Top
     title: Solitude Documentation
