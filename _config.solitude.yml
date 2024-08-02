@@ -626,8 +626,6 @@ font:
 # Extend
 extends:
   head:
-  - <div id="svg_bg"></div>
-  - <div id="web_bg"></div>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   body:
   # Insert in body
