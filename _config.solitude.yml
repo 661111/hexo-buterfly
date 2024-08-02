@@ -74,8 +74,8 @@ nav:
 hometop:
   enable: true
   banner:
-    title: Tranquility <br>and love life
-    url: Hexo Theme Solitude
+    title: 生活明朗 <br>万物可爱
+    url: blog.anxkj.top
     icon:
        HTML: # name
          img: https://i.postimg.cc/vBWVnY8q/html.png # url
