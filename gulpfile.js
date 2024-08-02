@@ -42,5 +42,5 @@ gulp.task('minify-html', () => {
 });
 // 运行gulp命令时依次执行以下任务
 gulp.task('default', gulp.parallel(
-  'compress', 'minify-css', 'minify-html','mini-font'
+  'compress', 'minify-css', 'minify-html'
 ))
