@@ -626,7 +626,8 @@ font:
 # Extend
 extends:
   head:
-  # Insert in head
+  - <div id="web_bg"></div>
+  - <div id="web_bg"></div>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   body:
   # Insert in body
