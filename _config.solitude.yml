@@ -79,23 +79,24 @@ hometop:
     url: blog.anxkj.top
     icon:
        HTML: # name
-         img: https://i.postimg.cc/vBWVnY8q/html.png # url
+         img: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/img/p9Z9ODU.avif # url
          color: "#e9572b" # color
        JS:
-         img: https://i.postimg.cc/3N10Ltv2/js.png
+         img: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/img/p9Z9bvV.avif
          color: "#f7cb4f"
        Docker:
-         img: https://i.postimg.cc/8Pk6Fg24/docker.png
+         img: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/img/p9Z9BAH.avif
          color: "#57b6e6"
-       Flutter:
-         img: https://i.postimg.cc/hPC7T3gB/flutter.png
+       Vue:
+         img: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/img/p9ZCMxP.avif
          color: "#ffffff"
-       WebPack:
-         img: https://i.postimg.cc/dVLZBmtT/webpack.png
+       Photoshop:
+         img: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/img/p9Z9y9I.avif
          color: "#2e3a41"
        Git:
-         img: https://i.postimg.cc/nhgjwjCS/git.png
+         img: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/img/p9Z9xUJ.avif
          color: "#df5b40"
+         
   group:
     热门: /archives/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
     归档: /archives/ || fas fa-book || linear-gradient(to right,#358bff,#15c6ff)
