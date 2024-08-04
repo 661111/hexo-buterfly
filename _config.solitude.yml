@@ -736,7 +736,7 @@ CDN:
     busuanzi_qj_js: https://pv.lemonso.com/js
     # algolia_search:
     # instantsearch:
-    # pjax:
+    pjax: https://api.zhheo.com/HeoBlogFile/pjax/pjax.min.js
     # twikoo:
     # waline_js:
     # waline_css:
@@ -746,9 +746,9 @@ CDN:
     # aplayer_css:
     # aplayer_js:
     # meting_js:
-    # pace_js:
+    pace_js: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js
     # swiper_css:
     # swiper_js:
     # busuanzi_js:
-    # snackbar_js:
+    snackbar_js: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
 # --------------------------- end ---------------------------
