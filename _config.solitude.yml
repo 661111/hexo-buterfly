@@ -746,6 +746,7 @@ CDN:
     # aplayer_css:
     # aplayer_js:
     # meting_js:
+    fontawesome: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
     pace_js: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js
     # swiper_css:
     # swiper_js:
