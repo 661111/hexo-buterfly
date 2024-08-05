@@ -320,11 +320,11 @@ footer:
   information:
     author: false # enable site_icon in footer
     left:
-      Github: https://github.com/efuo || fab fa-github # Name: link || icon
-      Mail: mailto:o@efu.me || fab fa-envelope
+      Github: https://github.com/efuo || heoblogIcon icon-github-line # Name: link || icon
+      Mail: mailto:o@efu.me || heoblogIcon icon-mail-line
     right:
-      Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
-      Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
+      Bilibili: https://space.bilibili.com/1329819902 || heoblogIcon icon-bilibili-line
+      Douyin: https://v.douyin.com/iJsLc8jt/ || heoblogIcon icon-tiktok
   group:
     Navgation:
       Archives: /archives/
@@ -590,9 +590,9 @@ giscus:
 # --------------------------- start ---------------------------
 # Console
 console:
-  enable: false
+  enable: true
   recentComment: # Recent comments
-    enable: false
+    enable: true
     storage: .2 # Cache time 1: 1 day / .5 : half a day
   card:
     tags: true # Tags
