@@ -15,8 +15,8 @@ site:
   name:
     class: text # text / i_class / img
     custom: 万舒重 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  siteIcon: /img/pwa/favicon.png # Site icon
-  icon: /img/pwa/favicon.png
+  siteIcon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif # Site icon
+  icon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -129,7 +129,7 @@ aside:
   card:
     style: 0 # 0: default 1: style 1 2: style 2
     author:
-      img: /img/avatar.avif # url (avatar)
+      img: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif # url (avatar)
       sticker: # url (sticker), 24x24
     url: /about/ # Click name to jump to address
     background: # https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
@@ -440,7 +440,7 @@ copy:
 # --------------------------- start ---------------------------
 # Lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # post, site
   placeholder: /img/loading.avif
   errorimg: /img/error_load.avif
@@ -690,11 +690,11 @@ right_menu:
 # Memorial
 # Turn the entire site gray on memorable days.
 memorial:
-  enable: false
+  enable: true
   date:
-  #  - 7-7 # 卢沟桥事变
-  #  - 9-18 # 九一八事变
-  #  - 12-13 # 南京大屠杀国家公祭日
+    - 7-7 # 卢沟桥事变
+    - 9-18 # 九一八事变
+    - 12-13 # 南京大屠杀国家公祭日
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
