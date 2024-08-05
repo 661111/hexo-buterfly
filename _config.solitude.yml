@@ -733,7 +733,7 @@ CDN:
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file} # Custom format
   # Directly override the default CDN link (highest priority)
   option:
-    main_css: /css/main.css
+    main_css: /css/index.css
     main: /js/main.js
     utils: /js/utils.js
     jquery: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
