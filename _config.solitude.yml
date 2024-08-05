@@ -506,7 +506,7 @@ busuanzi_use: 0 # 0: original / 1: qingjiao (other: other custom busuanzi platfo
 # --------------------------- start ---------------------------
 # Search
 search:
-  enable: false
+  enable: true
   type: local # local / algolia
   tags:
     # - Solitude
