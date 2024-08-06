@@ -3,6 +3,7 @@ http://example.com/2022/06/17/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B
 http://example.com/about/index.html
 http://example.com/equipment/index.html
 http://example.com/essay/index.html
+http://example.com/icon/readme.html
 http://example.com/moments/index.html
 http://example.com/
 http://example.com/tags/Course/
