@@ -105,3 +105,20 @@ deploy:
   type: 'git'
   repository: https://github.com/661111/github-page.git
   branch: main
+
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: false
+  exclude:
+    - '*.min.css'
+    - 'css/index.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
