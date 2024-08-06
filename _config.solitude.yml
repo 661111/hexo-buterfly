@@ -326,19 +326,19 @@ footer:
       Bilibili: https://space.bilibili.com/1329819902 || heoblogIcon icon-bilibili-line
       Douyin: https://v.douyin.com/iJsLc8jt/ || heoblogIcon icon-tiktok
   group:
-    Navgation:
-      Archives: /archives/
-      Categories: /categories/
-      Tags: /tags/
-    Server:
+    导航:
+      归档: /archives/
+      分类: /categories/
+      标签: /tags/
+    服务:
       Aliyun: https://aliyun.com/
       51la: https://v6.51.la/
-    Arrangement:
+    协议:
       Cookies: /cookies/
-      Privacy: /privacy/
-      Copyright: /copyright/
+      隐私协议: /privacy/
+      C版权协议: /copyright/
 
-  randomlink: false # Random link
+  randomlink: true # Random link
   privacy: # /privacy/ # Privacy policy
   license: # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh # License
   links:
@@ -359,8 +359,8 @@ errorpage:
 # --------------------------- start ---------------------------
 # Says Page
 says:
-  enable: false
-  home_mini: false
+  enable: true
+  home_mini: true
   page: '/essay/'
   style: 1
   strip: 30
