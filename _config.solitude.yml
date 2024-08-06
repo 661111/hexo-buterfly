@@ -628,6 +628,7 @@ font:
 extends:
   head:
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+    - <link rel="dns-prefetch" href="https://cdn3.codesign.qq.com/" />
   body:
   # Insert in body
 # --------------------------- end ---------------------------
