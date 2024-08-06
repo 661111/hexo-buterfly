@@ -89,10 +89,6 @@ snackbar:
   name: node-snackbar
   file: dist/snackbar.min.js
   version: 0.1.16
-fontawesome:
-  name: font-awesome
-  file: css/all.min.css
-  version: 6.6.0
 medium_zoom:
   name: medium-zoom
   file: dist/medium-zoom.min.js
