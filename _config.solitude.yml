@@ -748,7 +748,7 @@ CDN:
     # waline_css:
     # katex:
     # katex_copytex:
-    # lazyload:
+    lazyload: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js
     # aplayer_css:
     # aplayer_js:
     # meting_js:
