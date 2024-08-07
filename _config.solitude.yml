@@ -627,7 +627,7 @@ font:
 # Extend
 extends:
   head:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+    - <script src="/js/cdn.js"></script>
     - <style> @import url(/css/iconfont.css); </style>
     - <style> @import url(/css/swiper.min.css); </style>
     - <style> @import url(/css/index.css); </style>
