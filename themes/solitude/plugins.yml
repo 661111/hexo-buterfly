@@ -106,3 +106,8 @@ qrcode:
   file: qrcode.min.js
   version: 1.0.0
   other_name: qrcodejs
+swiper_js:
+  name: swiper
+  file: swiper-bundle.min.js
+  version: 11.0.5
+  other_name: Swiper
