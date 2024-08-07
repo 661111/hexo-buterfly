@@ -1,3 +1,3 @@
-@import '/css/iconfont.css'
-@import '/css/swiper.min.css'
-@import '/css/index.css'
+@import url(/css/iconfont.css);
+@import url(/css/swiper.min.css);
+@import url(/css/index.css);
