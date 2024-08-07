@@ -1,5 +1,6 @@
 @font-face {
   font-family: "heoblogIcon";
+  font-display: swap;
   src: url('/icon/iconfont.eot?t=282bbb6e61911f4edadde5c8b8c2e151');
   src: url('/icon/iconfont.eot?t=282bbb6e61911f4edadde5c8b8c2e151#iefix') format('embedded-opentype'),
   url('/icon/iconfont.woff?t=282bbb6e61911f4edadde5c8b8c2e151') format('woff2'),
@@ -12,6 +13,7 @@
   font-family: "heoblogIcon" !important;
   font-size: 16px;
   font-style: normal;
+  font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
