@@ -13,8 +13,8 @@
 # Site information
 site:
   name:
-    class: text # text / i_class / img
-    custom: 万舒重 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    class: text
+    custom: 万舒重
   siteIcon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif # Site icon
   icon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif
 # --------------------------- end ---------------------------
