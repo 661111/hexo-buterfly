@@ -28,6 +28,7 @@
     "hexo-server": "^3.0.0",
     "hexo-wordcount": "6.0.1",
     "hexo-yam": "9.0.0",
+    "hexo-generator-searchdb": "1.4.1",
     "markdown-it-task-lists": "2.1.1",
     "terser": "5.31.3",
     "hexo-neat": "^1.0.9"
