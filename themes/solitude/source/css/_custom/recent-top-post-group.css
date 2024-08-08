@@ -1,0 +1,9 @@
+#home_top .recent-top-post-group {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    #home_top .recent-top-post-group {
+        margin-top: 10px;
+    }
+}
