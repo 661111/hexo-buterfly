@@ -105,7 +105,7 @@ hometop:
     sup: Top
     title: Solitude Documentation
     url: https://solitude.js.org/
-    img: /img/default.avif
+    img: https://jsdcdn.s3.bitiful.net/npm/haoch-cdn@1.1.1/img/avif/default.avif
     color: "none"
 carousel: false
 # --------------------------- end ---------------------------
