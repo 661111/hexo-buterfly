@@ -17,6 +17,13 @@ site:
     custom: 万舒重
   siteIcon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif # Site icon
   icon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif
+social:
+  fab fa-github: https://github.com/xxxxx || Github || '#24292e'
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+# Avatar (頭像)
+avatar:
+  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  effect: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
