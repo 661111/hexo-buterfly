@@ -20,7 +20,8 @@
     padding: 5px .8rem;
     animation: slide-in .5s .2s backwards;
     will-change: transform;
-    -webkit-animation: slide-in .5s .2s backwards
+    -webkit-animation: slide-in .5s .2s backwards;
+    margin-bottom: 1rem;
 }
 #catalog-bar {
     padding: .4rem .8rem;
