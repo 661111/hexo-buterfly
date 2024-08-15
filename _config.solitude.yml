@@ -24,6 +24,10 @@ social:
 avatar:
   img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
   effect: false
+# Replace Broken Images (替換無法顯示的圖片)
+error_img:
+  flink: /img/friend_404.gif
+  post_page: /img/404.jpg
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
