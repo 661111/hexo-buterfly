@@ -8,13 +8,13 @@ if theme.aside.card_author.enable
 
     .card-info-data.site-data.is-center
       a(href=url_for(config.archive_dir) + '/')
-        .headline= _p('aside.articles')
+        .headline= _p('归档')
         .length-num= site.posts.length
       a(href=url_for(config.tag_dir) + '/')
-        .headline= _p('aside.tags')
+        .headline= _p('标签')
         .length-num= site.tags.length
       a(href=url_for(config.category_dir) + '/')
-        .headline= _p('aside.categories') 
+        .headline= _p('分类') 
         .length-num= site.categories.length
 
     if theme.aside.card_author.button.enable
