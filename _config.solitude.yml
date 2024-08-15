@@ -17,6 +17,11 @@ site:
     custom: 万舒重
   siteIcon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif # Site icon
   icon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/万.avif
+# --------------------------- end ---------------------------
+
+# --------------------------- start ---------------------------
+# custom yaml start env
+# Social
 social:
   fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
@@ -123,6 +128,8 @@ carousel: false
 
 # --------------------------- start ---------------------------
 aside:
+  # custom
+  mobile: true
   # Values: about (info card), newestPost (latest article), allInfo (website information), flip (official account QR code), newest_comment (latest comment)
   home: # on the homepage
     noSticky: "about"
