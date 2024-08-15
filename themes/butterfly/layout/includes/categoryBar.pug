@@ -1,4 +1,21 @@
-#category-bar
-  .category-bar-items#category-bar-items
-    !=getarray_bar("category")
-  a.category-bar-more(href="/categories/") 更多
+.home-catalog-bar#catalog-bar
+    #catalog-list
+        .catalog-list-item.catalog-shouye-item#home-catalog-item
+            a(href="/") 首页
+        .catalog-list-item(id='/categories/经验分享')
+            a(href="/categories/经验分享/") 经验分享
+        .catalog-list-item(id='/categories/翻译内容')
+            a(href="/categories/翻译内容/") 翻译内容
+        .catalog-list-item(id='/categories/资源中心')
+            a(href="/categories/资源中心/") 资源中心
+        .catalog-list-item(id='/categories/优质推荐')
+            a(href="/categories/优质推荐/") 优质推荐
+        .catalog-list-item(id='/categories/佳作推荐')
+            a(href="/categories/佳作推荐/") 佳作推荐
+        .catalog-list-item(id='/categories/我的开发')
+            a(href="/categories/我的开发/") 我的开发
+        .catalog-list-item(id='/categories/闲聊杂谈')
+            a(href="/categories/闲聊杂谈/") 闲聊杂谈
+        .catalog-list-item(id='/categories/转载内容')
+            a(href="/categories/转载内容/") 转载内容
+    a.catalog-more(href="/categories/") 更多
