@@ -64,78 +64,51 @@
     position sticky
     transition: top .3s ease 0s
 
-  #author-info__sayhi
-    text-align center
-    width fit-content
-    color var(--efu-white)
-    background var(--efu-white-op)
-    backdrop-filter blur(10px)
-    font-size 12px
-    padding 2px 8px
-    border-radius 12px
-    cursor pointer
-    user-select none
-    transition .3s
-    margin auto
-    min-width 100px
+  .card-widget
+    @extend .cardHover
+    position: relative
+    overflow: hidden
+    margin-top: 20px
+    padding: 20px 24px
 
-    / [data-theme=dark] &
-      background #00000015
-      color var(--efu-white)
+    if hexo-config('aside.mobile') == false
+      +maxWidth768()
+        &:not(#card-toc)
+          display: none
 
-      &:hover
-        color var(--efu-white)
+  .card-info
+    .author-info
+      &__name
+        font-weight: 500
+        font-size: 1.57em
 
-    &:hover
-      background var(--efu-card-bg)
-      color var(--efu-main)
-      transform scale(1.1)
+      &__description
+        margin-top: -.42em
 
-      &:active
-        transform scale(.97)
-        opacity .8
+    .card-info-data
+      margin: 14px 0 4px
 
-  .card-info-social-icons
-    margin 0
-    display flex
-    justify-content flex-start
-    flex-direction row
-    flex-wrap nowrap
-    cursor pointer
+    .card-info-social-icons
+      margin: 6px 0 -6px
 
-    .social-icon
-      margin 0
-      margin-left 8px
-      color var(--efu-fontcolor)
-      font-size 1.4em
-      cursor pointer
-      display flex
+      .social-icon
+        margin: 0 10px
+        color: var(--font-color)
+        font-size: 1.4em
 
-    i
-      transition all .3s ease 0s
-      padding 8px
-      border-radius 32px
-      cursor pointer
-      background var(--efu-white-op)
-      color var(--efu-card-bg)
-      width 40px
-      height 40px
-      display flex
-      align-items center
-      justify-content center
-
-      &:hover
-        background var(--efu-white)
-        transform scale(1.1)
-        color var(--efu-main)
-        box-shadow none
-
-      / [data-theme=dark] &
-        background var(--efu-black-op)
+      i
+        transition: all .3s
 
         &:hover
-          background-color var(--efu-black)
-          color var(--efu-white)
+          transform: rotate(360deg)
+
+    #card-info-btn
+      display: block
+      margin-top: 14px
+      background-color: var(--btn-bg)
+      color: var(--btn-color)
+      text-align: center
+      line-height: 2.4
 
 +minWidth900()
   html.hide-aside .layout
