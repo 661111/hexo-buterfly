@@ -1,12 +1,12 @@
 if theme.aside.card_author.enable
   .card-widget.card-info
-    .is-center
+    .is-data
       .avatar-img
         img(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="avatar")
       .author-info-name= config.author
       .author-info-description!= theme.aside.card_author.description || config.description
 
-    .card-info-data.is-data
+    .card-info-data.is-center
       .card-info-data-item
         a(href=url_for(config.archive_dir) + '/')
           .headline= _p('文章')
