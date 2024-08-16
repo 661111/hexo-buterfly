@@ -150,8 +150,11 @@
     height: 110px;
     border-radius: 70px;
 }
-
 #aside-content .card-info .author-info__name {
     font-weight: 800;
     font-size: 1.8em;
+}
+#aside-content .card-info .author-info__name {
+    font-weight: 500;
+    font-size: 1.57em;
 }
