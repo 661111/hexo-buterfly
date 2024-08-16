@@ -9,11 +9,14 @@
     content: '';
     animation: 15s infinite gradient;
 }
+.is-center {
+    display: flex;
+}
+.is-data {
+    display: flow;
+}
 #aside-content {
     width: 25.5%;
-}
-.is-center {
-    display: flow!important;
 }
 @media screen and (min-width: 900px) {
     #aside-content {
