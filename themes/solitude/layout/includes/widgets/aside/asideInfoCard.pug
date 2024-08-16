@@ -3,8 +3,8 @@ if theme.aside.card_author.enable
     .is-centers
       .avatar-img
         img(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="avatar")
-      .author-info-name(style=(margin-left:45%)) = config.author
-      .author-info-description!(style=(margin-left:25%)) = theme.aside.card_author.description || config.description
+      .author-info-name = config.author
+      .author-info-description! = theme.aside.card_author.description || config.description
 
     .card-info-data.is-center
       .card-info-data-item
