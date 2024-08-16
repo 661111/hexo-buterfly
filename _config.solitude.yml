@@ -23,8 +23,7 @@ site:
 # custom yaml start env
 # Social
 social:
-  fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  heoblogIcon icon-github-line: https://github.com/xxxxx || Github || '#24292e'
 # Avatar (頭像)
 avatar:
   img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
