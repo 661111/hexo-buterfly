@@ -6,7 +6,7 @@ if theme.aside.card_author.enable
       .author-info-name= config.author
       .author-info-description!= theme.aside.card_author.description || config.description
 
-    .card-info-data.is-center
+    .card-info-data.is-data
       .card-info-data-item
         a(href=url_for(config.archive_dir) + '/')
           .headline= _p('文章')
