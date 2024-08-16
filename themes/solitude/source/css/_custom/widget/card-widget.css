@@ -1,3 +1,14 @@
+#aside-content>.card-widget.card-info:before {
+    background: none!important;
+    background-size: 400%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    animation: 15s infinite gradient;
+}
 #aside-content {
     width: 25.5%;
 }
