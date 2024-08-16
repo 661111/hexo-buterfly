@@ -120,3 +120,22 @@
     color: var(--font-color);
     font-size: 1.4em;
 }
+.apple .avatar-img{
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.avatar-img {
+    border-radius: 25px;
+    box-shadow: 2.2px 2.2px 2.2px rgba(10, 207, 233, .3);
+}
+
+.avatar-img {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 70px;
+}
