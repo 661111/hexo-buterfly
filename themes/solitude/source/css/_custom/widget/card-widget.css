@@ -159,4 +159,8 @@
 }
 .author-info__description {
     margin-top: -0.42em;
+    margin-left: 24%;
+}
+#aside-content .card-info .author-info__name {
+    margin-left: 44%;
 }
