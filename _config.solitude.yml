@@ -209,11 +209,11 @@ aside:
 # --------------------------- start ---------------------------
 # Home page article configuration information
 index_post_list:
-  direction: column # row / column
+  direction: row # row / column
   column: 2 # 2: 2 columns 3: 3 columns
-  content: false # 1: post.description / 2: Automatically get descriptions or screenshots / 3: Use only interception / false: No content is displayed
+  content: 1 # 1: post.description / 2: Automatically get descriptions or screenshots / 3: Use only interception / false: No content is displayed
   length: 500 # The length of the screenshot content
-  cover: both # left: on the left : left / right: on the right : right / both: both sides : both
+  cover: left # left: on the left : left / right: on the right : right / both: both sides : both
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
