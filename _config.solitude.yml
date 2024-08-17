@@ -21,17 +21,47 @@ site:
 
 # --------------------------- start ---------------------------
 # custom yaml start env
+# Insert ads manually (手動插入廣告)
 # Social
 social:
   heoblogIcon icon-github-line: https://github.com/xxxxx || Github || '#24292e'
+
 # Avatar (頭像)
 avatar:
   img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
   effect: false
+
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
+
+cover:
+  # display the cover or not (是否顯示文章封面)
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # the position of cover in home page (封面顯示的位置)
+  # left/right/both
+  position: both
+  # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
+  default_cover:
+    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    
+# Insert ads manually (手動插入廣告)
+# ad:
+#   index:
+#   aside:
+#   post:
+
+# Display the article introduction on homepage
+# 1: description
+# 2: both (if the description exists, it will show description, or show the auto_excerpt)
+# 3: auto_excerpt (default)
+# false: do not show the article introduction
+index_post_content:
+  method: 3
+  length: 500 # if you set method to 2 or 3, the length need to config
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
