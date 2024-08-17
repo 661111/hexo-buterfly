@@ -13,7 +13,6 @@
 .layout #recent-posts .home-catalog-bar {
     background: var(--mj-card-bg);
     border: var(--style-border);
-    margin-top: 12px;
     border-radius: 11px!important;
     transition: .3s;
     font-size: 15px;
@@ -21,7 +20,7 @@
     animation: slide-in .5s .2s backwards;
     will-change: transform;
     -webkit-animation: slide-in .5s .2s backwards;
-    margin-bottom: 1rem;
+    margin-bottom: 1px;
 }
 #catalog-bar {
     padding: .4rem .8rem;
