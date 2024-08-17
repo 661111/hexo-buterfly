@@ -1,16 +1,40 @@
-- let year
-each post in page.posts.find({ parent: { $exists: false } }).data
-    if(year !== post.date.year())
-        - year = post.date.year()
-        .article-sort-item.year #{year}
-    .article-sort-item
-        a.article-sort-item-img(href=url_for(post.path) title=post.title)
-            img(src=url_for(post.cover) alt=post.title)
+mixin articleSort(posts)
+  .article-sort
+    - var year
+    - posts.each(function (article) {
+      - let tempYear = date(article.date, 'YYYY')
+      - let no_cover = article.cover === false || !theme.cover.archives_enable ? 'no-article-cover' : ''
+      - let title = article.title || _p('no_title')
+      if tempYear !== year
+        - year = tempYear
+        .article-sort-item.year= year
+      .article-sort-item(class=no_cover)
+        if article.cover && theme.cover.archives_enable
+          a.article-sort-item-img(href=url_for(article.path) title=title)
+            if article.cover_type === 'img'
+              img(src=url_for(article.cover) alt=title onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'`)
+            else
+              div(style=`background: ${article.cover}`)
         .article-sort-item-info
-            a.article-sort-item-title(href=url_for(post.path) title=post.title onclick="window.event.cancelBubble=true;") #{post.title}
-            .article-sort-item-tags
-                each tags in post.tags.data
-                    a.article-meta__tags(href=url_for(tags.path) onclick="window.event.cancelBubble=true;")
-                        span.tags-punctuation
-                            i.solitude.fa-solid.fa-hashtag
-                            =tags.name
+          .article-sort-item-time
+            i.far.fa-calendar-alt
+            time.post-meta-date-created(datetime=date_xml(article.date) title=_p('post.created') + ' ' + full_date(article.date))= date(article.date, config.date_format)
+          .article-meta-wrap
+            if (theme.post_meta.page.categories && article.categories.data.length > 0)
+              span.article-sort-item-categories
+                i.iconfont.icon-fenlei//- 记得改成自己的图标
+                  each item, index in article.categories.data
+                    a(href=url_for(item.path)).article-meta__categories #[=item.name]
+                    if (index < article.categories.data.length - 1)
+                      i.fas.fa-angle-right
+            if (theme.post_meta.page.tags && article.tags.data.length > 0)
+              span.article-sort-item-tags
+                i.iconfont.icon-biaoqian//- 记得改成自己的图标
+                  each item, index in article.tags.data
+                    a(href=url_for(item.path)).article-meta__tags #[=item.name]
+                    if (index < article.tags.data.length - 1)
+                      span.article-meta__link #[='•']
+            .article-sort-item-time
+              time.post-meta-date-created(datetime=date_xml(article.date) title=_p('post.created') + ' ' + full_date(article.date))= date(article.date, config.date_format)
+          a.article-sort-item-title(href=url_for(article.path) title=title)= title
+    - })
